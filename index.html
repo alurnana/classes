@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Registration</title>
 </head>
 
-<body style="text-align: center;">
+<body style="text-align: center">
     <a href="#">Login</a>
-    <a href="#">Register</a>
+    <p class="divide">|</p>
+    <a href="#" class="register">Register</a>
     <p>Enter your email and password to register.</p>
 
     <form action="https://fom.in.ua/echo">
@@ -16,12 +18,12 @@
         <input type="email" name="user-email" placeholder="Enter your email address"> <br><br>
         <input type="password" name="password" placeholder="Password"> <br><br>
         <input type="password" name="password-check" placeholder="Confirm Password"> <br><br>
-        <button type="submit">Register</button>
+        <button type="submit" class="button-register">Register</button>
     </form>
 
     <p>Or register with</p>
-    <a href="#">Continue with Google</a>
-    <a href="#">Continue with Facebook</a>
+    <a href="#" class="button-google button-both">Continue with Google</a> <br> <br>
+    <a href="#" class="button-facebook button-both">Continue with Facebook</a>
 </body>
 
 </html>

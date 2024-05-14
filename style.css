@@ -1,0 +1,53 @@
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.register {
+    color: #46A358;
+    font-size: 20px;
+    line-height: 16px;
+}
+
+.divide {
+    display: inline;
+    font-size: 18px;
+}
+
+input {
+    height: 40px;
+    width: 286px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    padding-left: 14px;
+}
+
+.button-register {
+    height: 45px;
+    width: 300px;
+    line-height: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background-color: #46A358;
+    border-radius: 5px;
+    border: none;
+}
+
+.button-both {
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    font-size: 13px;
+}
+
+.button-google {
+    padding: 10px 92px;
+}
+
+.button-facebook {
+    padding: 10px 87px;
+}
